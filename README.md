@@ -1,10 +1,14 @@
-AtliQ Motors: Electric Vehicle Market Study in India
-Problem Statement
-AtliQ Motors is a leading automotive company in the USA, known for its expertise in electric vehicles (EVs). Over the past five years, AtliQ Motors has captured a significant 25% share of the electric and hybrid vehicle market in North America. As part of its strategic expansion, the company plans to introduce its top-selling models to the Indian market, where its current share is under 2%. To ensure a successful launch, Bruce Haryali, the head of AtliQ Motors India, has tasked the data analytics team with conducting a comprehensive market analysis of the EV/Hybrid segment in India. Peter Pandey, a data analyst in the team, has been assigned this critical project.
+# AtliQ Motors: Electric Vehicle Market Study in India
 
---- Ask: Key Analytical Questions
-Chief: Bruce Haryali
+## Problem Statement
+AtliQ Motors is a leading automotive company in the USA, known for its expertise in electric vehicles (EVs). Over the past five years, AtliQ Motors has captured a significant 25% share of the electric and hybrid vehicle market in North America. As part of its strategic expansion, the company plans to introduce its top-selling models to the Indian market, where its current share is under 2%.
 
+To ensure a successful launch, Bruce Haryali, the head of AtliQ Motors India, has tasked the data analytics team with conducting a comprehensive market analysis of the EV/Hybrid segment in India. Peter Pandey, a data analyst in the team, has been assigned this critical project.
+
+---
+
+## Ask: Key Analytical Questions
+**Chief:** Bruce Haryali
 
 ### Preliminary Analysis Questions:
 
@@ -28,8 +32,6 @@ Chief: Bruce Haryali
 
 10. **Revenue Growth:** Calculate the revenue growth rate for 4-wheelers and 2-wheelers in India for 2022 vs 2024 and 2023 vs 2024, assuming an average unit price (85K for 2-wheelers, 15L for 4-wheelers).
 
----
-
 ### Secondary Analysis Questions:
 
 1. **Customer Motivation:** What were the primary reasons for customers choosing 4-wheeler EVs in 2023 and 2024 (e.g., cost savings, environmental concerns, government incentives)?
@@ -44,38 +46,55 @@ Chief: Bruce Haryali
 
 6. **Recommendations:** Provide your top 3 recommendations for AtliQ Motors' strategy in India.
 
+---
 
-   
-Data Sources:
-The data is available on the Codebasics website(https://codebasics.io/challenge/codebasics-resume-project-challenge), which consolidates various datasets for analysis. Additionally, the raw data can be explored on the Vahan Sewa platform(https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml), which provides public access to vehicle registration information.
-Dataset Structure:
+## Data Sources
+The data is available on the Codebasics website [Codebasics Data Source](https://codebasics.io/challenge/codebasics-resume-project-challenge), which consolidates various datasets for analysis. Additionally, the raw data can be explored on the Vahan Sewa platform [Vahan Sewa Data](https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml), which provides public access to vehicle registration information.
+
+### Dataset Structure
 The data used in this analysis is structured into three CSV files and one text file (metadata):
 
-dim_date.csv: Contains date-related information, including fiscal year and quarter details.
-electric_vehicle_sales_by_makers.csv: Provides sales data by vehicle category and manufacturer.
-electric_vehicle_sales_by_state.csv: Includes sales data categorized by state and vehicle type.
---- Process: Data Cleaning & Transformation
+- **dim_date.csv:** Contains date-related information, including fiscal year and quarter details.
+- **electric_vehicle_sales_by_makers.csv:** Provides sales data by vehicle category and manufacturer.
+- **electric_vehicle_sales_by_state.csv:** Includes sales data categorized by state and vehicle type.
 
-Tools:
-Power BI: Used for data visualization and analysis.
-Power Query: Utilized for data cleaning and transformation.
-QuickTime Player & Power Point Presentation: Employed for creating presentations and recording video.
+---
 
+## Process: Data Cleaning & Transformation
 
-Data Cleaning Steps:
-Duplication Removal: Checked and eliminated duplicate records.
-Formatting: Ensured consistency in the data, such as standardizing state names (e.g., "DND" to "Dadra Nagar and Haveli & Daman Diu").
-In the case of Kerala for the fiscal year 2024, a discrepancy was found where for the month of January the total vehicles sold were recorded as 164, while electric vehicles sold were 734. This inconsistency suggested a data entry error. To correct this, the total vehicle count was replaced with the median of total vehicle sales values for Kerala for the fiscal year 2024 in the 4-wheeler category. The median(13,932) was chosen over the mean due to the presence of the extreme outlier (164), which would have skewed the mean value.
+### Tools:
+- **Power BI:** Used for data visualization and analysis.
+- **Power Query:** Utilized for data cleaning and transformation.
+- **QuickTime Player & PowerPoint Presentation:** Employed for creating presentations and recording video.
 
-4. Analyze: Key Metrics & Insights
-Tools:
-Power BI: Used to perform in-depth analysis and visualization of the data.
-Important Metrics:
-Fiscal Year: The fiscal year in India runs from April 1st to March 31st of the following year.
-Penetration Rate: Indicates the proportion of EVs sold as a percentage of total vehicle sales in a specific region or category.
-Compound Annual Growth Rate (CAGR): Measures the annual growth rate of sales over a specified period.
-Summary
+### Data Cleaning Steps:
+
+1. **Duplication Removal:** Checked and eliminated duplicate records.
+  
+2. **Formatting:** Ensured consistency in the data, such as standardizing state names (e.g., "DND" to "Dadra Nagar and Haveli & Daman Diu").
+
+3. **Data Correction:** In the case of Kerala for the fiscal year 2024, a discrepancy was found where for the month of January, the total vehicles sold were recorded as 164, while electric vehicles sold were 734. This inconsistency suggested a data entry error. To correct this, the total vehicle count was replaced with the median of total vehicle sales values for Kerala for the fiscal year 2024 in the 4-wheeler category. The median (13,932) was chosen over the mean due to the presence of the extreme outlier (164), which would have skewed the mean value.
+
+---
+
+## Analyze: Key Metrics & Insights
+
+### Tools:
+- **Power BI:** Used to perform in-depth analysis and visualization of the data.
+
+### Important Metrics:
+- **Fiscal Year:** The fiscal year in India runs from April 1st to March 31st of the following year.
+- **Penetration Rate:** Indicates the proportion of EVs sold as a percentage of total vehicle sales in a specific region or category.
+- **Compound Annual Growth Rate (CAGR):** Measures the annual growth rate of sales over a specified period.
+
+---
+
+## Summary
 Through this project, AtliQ Motors aims to gain a deeper understanding of the Indian EV market by analyzing sales data, identifying trends, and making strategic recommendations. The insights gathered will help the company make informed decisions regarding its expansion into India.
+
+### Live Dashboard
+[View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDk4ZTM2Y2QtZmNmMC00NTM1LWE1OWUtMWJhZjRkYWM5YzgyIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
 
 
 
