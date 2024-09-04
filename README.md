@@ -16,6 +16,7 @@ Preliminary Analysis Questions:
 8.Seasonal Trends: Identify the peak and low season months for EV sales based on data from 2022 to 2024.
 9.Future Projections: Estimate the projected EV sales (2-wheelers and 4-wheelers) for the top 10 states by penetration rate in 2030, using the CAGR from previous years.
 10.Revenue Growth: Calculate the revenue growth rate for 4-wheelers and 2-wheelers in India for 2022 vs 2024 and 2023 vs 2024, assuming an average unit price (85K for 2-wheelers, 15L for 4-wheelers).
+   
 Secondary Analysis Questions:
 1.Customer Motivation: What were the primary reasons for customers choosing 4-wheeler EVs in 2023 and 2024 (e.g., cost savings, environmental concerns, government incentives)?
 2.Impact of Subsidies: How have government incentives and subsidies influenced the adoption rates of 2-wheelers and 4-wheelers? Which states provided the most subsidies?
