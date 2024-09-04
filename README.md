@@ -5,17 +5,19 @@ AtliQ Motors is a leading automotive company in the USA, known for its expertise
 --- Ask: Key Analytical Questions
 Chief: Bruce Haryali
 
+
 Preliminary Analysis Questions:
-1. Top & Bottom Performers: Identify the top 3 and bottom 3 manufacturers of 2-wheelers for FY 2023 and 2024 based on sales volume.
-2. State Penetration: Which 5 states have the highest penetration rates for 2-wheeler and 4-wheeler EV sales in FY 2024?
-3. Sales Decline: List the states that experienced a decline in EV sales from 2022 to 2024.
-4. Quarterly Trends: Analyze the quarterly sales trends for the top 5 EV makers (4-wheelers) from 2022 to 2024.
-5. Regional Comparison: How do EV sales and penetration rates in Delhi compare to Karnataka in 2024?
-6. Growth Analysis: Calculate the compounded annual growth rate (CAGR) in 4-wheeler units for the top 5 manufacturers from 2022 to 2024.
-7. State Growth: List the top 10 states with the highest CAGR in total vehicle sales from 2022 to 2024.
-8.Seasonal Trends: Identify the peak and low season months for EV sales based on data from 2022 to 2024.
-9.Future Projections: Estimate the projected EV sales (2-wheelers and 4-wheelers) for the top 10 states by penetration rate in 2030, using the CAGR from previous years.
-10.Revenue Growth: Calculate the revenue growth rate for 4-wheelers and 2-wheelers in India for 2022 vs 2024 and 2023 vs 2024, assuming an average unit price (85K for 2-wheelers, 15L for 4-wheelers).
+
+Top & Bottom Performers: Identify the top 3 and bottom 3 manufacturers of 2-wheelers for FY 2023 and 2024 based on sales volume.
+State Penetration: Which 5 states have the highest penetration rates for 2-wheeler and 4-wheeler EV sales in FY 2024?
+Sales Decline: List the states that experienced a decline in EV sales from 2022 to 2024.
+Quarterly Trends: Analyze the quarterly sales trends for the top 5 EV makers (4-wheelers) from 2022 to 2024.
+Regional Comparison: How do EV sales and penetration rates in Delhi compare to Karnataka in 2024?
+Growth Analysis: Calculate the compounded annual growth rate (CAGR) in 4-wheeler units for the top 5 manufacturers from 2022 to 2024.
+State Growth: List the top 10 states with the highest CAGR in total vehicle sales from 2022 to 2024.
+Seasonal Trends: Identify the peak and low season months for EV sales based on data from 2022 to 2024.
+Future Projections: Estimate the projected EV sales (2-wheelers and 4-wheelers) for the top 10 states by penetration rate in 2030, using the CAGR from previous years.
+Revenue Growth: Calculate the revenue growth rate for 4-wheelers and 2-wheelers in India for 2022 vs 2024 and 2023 vs 2024, assuming an average unit price (85K for 2-wheelers, 15L for 4-wheelers).
    
 Secondary Analysis Questions:
 1.Customer Motivation: What were the primary reasons for customers choosing 4-wheeler EVs in 2023 and 2024 (e.g., cost savings, environmental concerns, government incentives)?
